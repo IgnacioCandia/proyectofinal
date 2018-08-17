@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Bootstrap HTML5">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    </head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+<body>
+
+        <section id="seccion" class="col-md-8">
+            <div class="row">
+      <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Manzana Golden </h3>
+            <p>1 KG</p>
+            
+			<a href="#" class="btn btn-default producto" precio="50" titulo="MANZANA GOLDEN"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta1.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Naranaja</h3>
+            <p>1 KG</p>
+             
+			<a href="#" class="btn btn-default producto" precio="20" titulo="NARANJA" role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta2.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Platano </h3>
+            <p>1 KG</p>
+            
+			<a href="#" class="btn btn-default producto" precio="15" titulo="PLATANO" role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+     <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta3.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Mango Ataulfo</h3>
+            <p>1 KG</p>
+
+			<a href="#" class="btn btn-default producto" precio="30" titulo="MANGO ATAULFO"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+               <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta4.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Papaya</h3>
+            <p>1 Pza</p>
+         
+			<a href="#" class="btn btn-default producto" precio="10" titulo="PAPAYA" role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta5.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Aguacate</h3>
+            <p>1 KG</p>
+           
+			<a href="#" class="btn btn-default producto" precio="30" titulo="AGUACATE"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta6.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Lechuga</h3>
+            <p>1 Pza</p>
+            
+			<a href="#" class="btn btn-default producto" precio="12" titulo="LECHUGA"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta7.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Cebolla</h3>
+            <p>1 KG</p>
+           
+			<a href="#" class="btn btn-default producto" precio="9.50" titulo="CEBOLLA"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+        <div class="col-xs-6 col-sm-3 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" src="fruta8.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Jitomate</h3>
+            <p>1 KG</p>
+            
+			<a href="#" class="btn btn-default producto" precio="15" titulo="JITOMATE"role="button">Comprar</a></p>
+          </div>
+        </div>
+      </div>         
+    </div>
+            
+             <footer id="pie" class="col-md-12">
+
+            </footer>   
+        </section>
+        </div>
+    </div>
+	<script src="minicart.js"></script>
+	<script>
+	  // configuración inicial del carrito 
+	  paypal.minicart.render({
+	  strings:{
+	    button:'Pagar'
+	   ,buttonAlt: "Total"
+	   ,subtotal: 'Total:'
+	   ,empty: 'No hay productos en el carrito'
+	  }
+	  });
+	  // Eventos para agregar productos al carrito
+	  
+	   $('.producto').click(function(e){
+	       e.stopPropagation();
+		    paypal.minicart.cart.add({
+			business: 'uhperezoscar@gmail.com', // Cuenta paypal para recibir el dinero
+			item_name: $(this).attr("titulo"),
+			 amount: $(this).attr("precio"),
+			 currency_code: 'MXN',
+			
+			});
+	   });
+	  
+	</script>
+	
+</body>
+</html>
